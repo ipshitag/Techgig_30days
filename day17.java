@@ -66,7 +66,10 @@ public class CandidateCode
       while(l<r)
       {
          if((arr[l] + arr[r]) == sum)
+         {
          System.out.print("True");
+            break;
+         }
          else if ((arr[l] + arr[r]) < sum)
          l++;
          else
