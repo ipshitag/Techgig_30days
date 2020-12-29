@@ -34,7 +34,7 @@ public class CandidateCode {
 
    if (age<10)
    System.out.print("I am happy as having no responsibilities.");
-   else if(age>=10 && age <19)
+   else if(age>=10 && age <18)
    System.out.print("I am still happy but starts feeling pressure of life.");
    else if(age>=18)
    System.out.print("I am very much happy as i handled the pressure very well.");
